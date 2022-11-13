@@ -1,0 +1,325 @@
+body
+{
+    background: blue;
+}
+*
+{
+    margin:0;
+    padding:0;
+}
+
+
+#black
+{
+    margin-top: 0;
+    background-color:black;
+    position:absolute;
+    height: 5rem;
+    width:100%;
+}
+#navbar::before
+{
+    content: "";
+    background-color: black;
+    z-index:-1;
+    position: absolute;
+    height: 100%;
+    width: 5000rem;
+    opacity:0.4;
+}
+
+
+#navbar
+{
+    display:flex;
+    align-items: center;
+    position: fixed;
+    font-family: montserrat;
+    height: 5rem;
+    width:100%;
+    z-index: 100;
+}
+
+#logo
+{
+    margin:0rem 0rem;
+}
+
+#logo img
+{
+    margin-left: 1rem;
+    height: 3rem;
+    
+}
+
+/* navigation bar list styling */
+.greater
+{
+    /* position: relative; */
+    width:14rem;
+    margin-left: 0.5rem;
+    margin-top: 0rem;
+    color:white;
+    font-size: 0.5rem;
+}
+.greater h1
+{
+
+    font-size:1.2rem;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+
+#navbar ul li
+{
+    list-style: none;
+    font-size: 1rem;
+    font-weight:bold;  
+}
+
+#navbar ul
+{
+    margin-left: 2rem;
+    display:flex;
+    display: none;
+}
+
+#navbar ul li a
+{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding-left:1rem;  
+}
+#home 
+{
+    display: flex;
+    flex-direction: column;
+    height: 28rem;
+    justify-content: center;
+    align-items: center;
+}
+.h-primary
+{
+    color:white;
+    font-size: 3rem;
+    padding:1rem;
+    font-weight: bolder;
+}
+#home::before
+{
+    content: "";
+    top:0px;
+    position: absolute;
+    background:linear-gradient(180deg,rgba(245, 243, 243, 0),black),url('img/backpacker-using-her-phone-hostel-varanasi-india.jpg') no-repeat center center/cover;
+    z-index:-2;
+    height: 35rem;
+    width: 100%;
+}
+
+.services-container
+{
+    margin-top:6rem;
+    height:40rem;
+    background-color: #D3D3D3;
+}
+
+.side h1 
+{
+    border-bottom:0.34rem solid black; 
+    font-size:2.5rem;
+    font-weight: bold;
+    font-family: Montserrat;
+    position: absolute;
+    margin-top:6rem;
+    margin-left:10rem;
+    padding:0.5rem;
+}
+.side p
+{
+    position: absolute;
+    margin-top:11rem;
+    margin-left: 10rem;
+    padding-top:10px; 
+    width:70%;  
+}
+.side p:nth-child(2)
+{
+    position: absolute;
+    color:blue;
+    margin-top:17rem;
+    margin-left: 10rem;
+    padding-top:0.5rem; 
+    width:70%;  
+}
+.side p:nth-child(3)
+{
+    position: absolute;
+    color:cyan;
+    margin-top:23rem;
+    margin-left: 10rem;
+    padding-top:0.5rem; 
+    width:70%;  
+}
+.side p:nth-child(4)
+{
+    position: absolute;
+    color: green;
+    margin-top:30rem;
+    margin-left: 10rem;
+    padding-top:0.5rem; 
+    width:70%;  
+}
+
+.orient  
+{
+    float:right;
+    margin-top:12.5rem;
+    color:white;
+
+    height:28rem;
+    font-size:2rem;
+    font-family: Montserrat;
+    writing-mode: vertical-rl;
+    background: -webkit-linear-gradient(180deg,rgb(244, 232, 232), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+
+#hostel-section
+{
+
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(243, 243, 237));
+    width: 100%;
+    height: 74rem;
+    /* text-shadow: -1.7px -1.7px 1.7px rgb(241, 8, 183); */
+}
+
+#hostel-section a:nth-child(1) div
+{ 
+    margin-left:4rem;
+    margin-bottom: 5rem;
+    background: url(img/abhostel.png) no-repeat center center/cover;
+    
+    background-repeat: no-repeat;
+}
+#hostel-section a:nth-child(2) div
+{
+    margin-left:3rem;
+    background: url(img/ezstays.jpeg) no-repeat center center/cover;
+    background-repeat: no-repeat;
+    
+}
+#hostel-section a:nth-child(3) div
+{
+    margin-left:4rem;
+    background: url(img/magadhinn.png) no-repeat center center/cover;
+    background-repeat: no-repeat;
+}
+#hostel-section a:nth-child(4) div
+{
+    margin-left:3rem;
+    background: url(img/stanza.jpg) no-repeat center center/cover;
+    background-repeat: no-repeat;
+}
+#hostel-section a:nth-child(5) div
+{
+    margin-left:4rem;
+    background: url(img/NALANDA.png) no-repeat center center/cover;
+    background-repeat: no-repeat;
+}
+#hostel-section a:nth-child(6) div
+{
+    margin-top:5rem;
+    margin-left:3rem;
+    background: url(img/clanbridge.png) no-repeat center center/cover;
+    background-repeat: no-repeat;
+}
+
+#hostel-section a div
+{
+    transition: all 0.5s ease-in-out;
+}
+
+#hostel-section a div:hover
+{
+    transform: scale(1.09);
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    text-decoration-color:blueviolet;
+    text-decoration-thickness: 0.3em;
+    
+}
+#hostel-section .box  
+{
+    
+    position: relative;
+    top:-3rem;
+    width:20rem;
+    margin-top:-5rem;
+    height: 20rem;
+    margin-left:7rem;
+    padding:0rem;
+    border-bottom:  3.5rem solid rgba(40, 40, 40, 0.6);
+}
+
+#hostel-section a div h1
+{
+    position:relative;
+    top: 21rem;
+    justify-content: center;
+    justify-items: last baseline;
+    text-align:center;
+    color:white;    
+    font-size:1.5rem;
+    font-family:Montserrat;
+}
+
+
+
+
+/* Clients section */
+#client-section
+{
+    height:13rem;
+}
+.client-h
+{
+    font-size: 3.5rem;
+    padding-top: 4rem; 
+    text-decoration: underline;
+    text-underline-offset: 0.3em; 
+    font-family: Montserrat;
+}
+#client-section::before
+{
+    content: "";
+    position: absolute;
+    background: url(img/raj.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 30rem;
+    z-index: -1;
+    opacity: 0.7;
+}
+#clients
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-items
+{
+    padding:1.5rem;
+}
+#clients img
+{
+   height:7rem;
+}
+
+#contact-box form
+{
+    width:80%;
+}
