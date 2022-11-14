@@ -161,138 +161,26 @@
 
 
 
-#hostel-section
-{
 
-    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(243, 243, 237));
-    width: 100%;
-    height: 101rem;
-    /* text-shadow: -1.7px -1.7px 1.7px rgb(241, 8, 183); */
-}
-
-#hostel-section a:nth-child(1) div
-{ 
-    margin-left:13rem;
-    margin-bottom: 5rem;
-    background: url(img/abhostel.png) no-repeat top center/cover;
-    
-    background-repeat: no-repeat;
-}
-#hostel-section a:nth-child(2) div
-{
-    margin-left:3rem;
-    background: url(img/ezstays.jpeg) no-repeat top center/cover;
-    background-repeat: no-repeat;
-    
-}
-#hostel-section a:nth-child(3) div
-{
-    margin-left:13rem;
-    background: url(img/magadhinn.png) no-repeat top top/cover;
-    background-repeat: no-repeat;
-}
-#hostel-section a:nth-child(4) div
-{
-    margin-left:3rem;
-    background: url(img/stanza.jpg) no-repeat top center/cover;
-    background-repeat: no-repeat;
-}
-#hostel-section a:nth-child(5) div
-{
-    margin-left:13rem;
-    background: url(img/NALANDA.png) no-repeat top center/cover;
-    background-repeat: no-repeat;
-}
-#hostel-section a:nth-child(6) div
-{
-    margin-top:5rem;
-    margin-left:3rem;
-    background: url(img/clanbridge.png) no-repeat top center/cover;
-    background-repeat: no-repeat;
-}
-
-#hostel-section a div
-{
-    transition: all 0.5s ease-in-out;
-}
-
-#hostel-section a div:hover
-{
-    transform: scale(1.09);
-    text-decoration: underline;
-    text-underline-offset: 0.5em;
-    text-decoration-color:blueviolet;
-    text-decoration-thickness: 0.3em;
-    
-}
 #hostel-section .box  
 {
-
-    position: relative;
     top:-3rem;
-    width:24rem;
-    margin-top:-5rem;
-    height: 28rem;
-    margin-left:7rem;
-    padding:0rem;
-    border-bottom:  4.5rem solid rgba(40, 40, 40, 0.6);
+    width:15rem;
+
+    margin-left: 1.5rem;
+    margin-right:1.5rem;
+    height: 15rem;
+    border-bottom:  2.5rem solid rgba(40, 40, 40, 0.6);
 }
 
 #hostel-section a div h1
 {
     position:relative;
-    top: 29rem;
+    top: 15.7rem;
     justify-content: center;
-    justify-items: last baseline;
+
     text-align:center;
     color:white;    
-    font-size:1.5rem;
+    font-size:1rem;
     font-family:Montserrat;
-}
-
-
-
-
-/* Clients section */
-#client-section
-{
-    height:27rem;
-}
-.client-h
-{
-    font-size: 3rem;
-    padding-top: 10rem; 
-    text-decoration: underline;
-    text-underline-offset: 0.4em; 
-    font-family: Montserrat;
-}
-#client-section::before
-{
-    content: "";
-    position: absolute;
-    background: url(img/raj.jpg) no-repeat center center/cover;
-    width: 100%;
-    height: 37rem;
-    z-index: -1;
-    opacity: 0.7;
-}
-#clients
-{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.client-items
-{
-    padding:2rem;
-}
-#clients img
-{
-   height:10rem;
-}
-
-
-#contact-box form
-{
-    width:80%;
 }
