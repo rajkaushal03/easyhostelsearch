@@ -1,7 +1,4 @@
-body
-{
-    background: blue;
-}
+
 *
 {
     margin:0;
@@ -127,8 +124,8 @@ body
 .side h1 
 {
     border-bottom:0.34rem solid black; 
-    font-size:2.5rem;
-    font-weight: bold;
+    font-size:2rem;
+    font-weight:1000;
     font-family: Montserrat;
     position: absolute;
     margin-top:6rem;
@@ -174,145 +171,47 @@ body
 .orient  
 {
     float:right;
-    margin-top:12.5rem;
+    margin-top:12rem;
     color:white;
 
     height:28rem;
     font-size:2rem;
-    font-family: Montserrat;
-    writing-mode: vertical-rl;
-    background: -webkit-linear-gradient(180deg,rgb(244, 232, 232), #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
     
 }
 
-
-
-#hostel-section
-{
-
-    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(243, 243, 237));
-    width: 100%;
-    height: 74rem;
-    /* text-shadow: -1.7px -1.7px 1.7px rgb(241, 8, 183); */
-}
-
-#hostel-section a:nth-child(1) div
-{ 
-    margin-left:4rem;
-    margin-bottom: 5rem;
-    background: url(img/abhostel.png) no-repeat center center/cover;
-    
-    background-repeat: no-repeat;
-}
-#hostel-section a:nth-child(2) div
-{
-    margin-left:3rem;
-    background: url(img/ezstays.jpeg) no-repeat center center/cover;
-    background-repeat: no-repeat;
-    
-}
-#hostel-section a:nth-child(3) div
-{
-    margin-left:4rem;
-    background: url(img/magadhinn.png) no-repeat center center/cover;
-    background-repeat: no-repeat;
-}
-#hostel-section a:nth-child(4) div
-{
-    margin-left:3rem;
-    background: url(img/stanza.jpg) no-repeat center center/cover;
-    background-repeat: no-repeat;
-}
-#hostel-section a:nth-child(5) div
-{
-    margin-left:4rem;
-    background: url(img/NALANDA.png) no-repeat center center/cover;
-    background-repeat: no-repeat;
-}
-#hostel-section a:nth-child(6) div
-{
-    margin-top:5rem;
-    margin-left:3rem;
-    background: url(img/clanbridge.png) no-repeat center center/cover;
-    background-repeat: no-repeat;
-}
-
-#hostel-section a div
-{
-    transition: all 0.5s ease-in-out;
-}
-
-#hostel-section a div:hover
-{
-    transform: scale(1.09);
-    text-decoration: underline;
-    text-underline-offset: 0.5em;
-    text-decoration-color:blueviolet;
-    text-decoration-thickness: 0.3em;
-    
-}
 #hostel-section .box  
 {
-    
-    position: relative;
     top:-3rem;
-    width:20rem;
-    margin-top:-5rem;
-    height: 20rem;
-    margin-left:7rem;
-    padding:0rem;
-    border-bottom:  3.5rem solid rgba(40, 40, 40, 0.6);
+    width:13rem;
+
+    margin-left: 0.7rem;
+    margin-right:0.7rem;
+    height: 13rem;
+    border-bottom:  2rem solid rgba(40, 40, 40, 0.6);
 }
 
 #hostel-section a div h1
 {
     position:relative;
-    top: 21rem;
+    top: 13.5rem;
     justify-content: center;
-    justify-items: last baseline;
+
     text-align:center;
     color:white;    
-    font-size:1.5rem;
+    font-size:1rem;
     font-family:Montserrat;
 }
 
 
 
-
-/* Clients section */
-#client-section
-{
-    height:13rem;
-}
 .client-h
 {
-    font-size: 3.5rem;
-    padding-top: 4rem; 
+    font-size: 2rem;
+    padding-top:3rem; 
     text-decoration: underline;
     text-underline-offset: 0.3em; 
     font-family: Montserrat;
-}
-#client-section::before
-{
-    content: "";
-    position: absolute;
-    background: url(img/raj.jpg) no-repeat center center/cover;
-    width: 100%;
-    height: 30rem;
-    z-index: -1;
-    opacity: 0.7;
-}
-#clients
-{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.client-items
-{
-    padding:1.5rem;
 }
 #clients img
 {
