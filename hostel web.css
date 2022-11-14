@@ -194,7 +194,7 @@
     font-size:3.5rem;
     font-family: Montserrat;
     writing-mode: vertical-rl;
-    background: -webkit-linear-gradient(180deg,rgb(244, 232, 232), #333);
+    background: -webkit-linear-gradient(180deg,rgb(84, 13, 238), rgb(6, 6, 6));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -202,48 +202,51 @@
 #hostel-section
 {
 
-    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(243, 243, 237));
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(55, 6, 160));
     width: 100%;
-    height: 65rem;
+    height:100%;
+    align-items: center;
+    justify-content:center;
+    box-sizing: border-box;
     /* text-shadow: -1.7px -1.7px 1.7px rgb(241, 8, 183); */
 }
 
+
 #hostel-section a:nth-child(1) div
 { 
-    margin-left:24rem;
-    background-image: url(img/abhostel.png)  ;
-    
-    background-repeat: no-repeat;
+
+    background: url(img/abhostel.png) no-repeat center center/cover  ;
+    margin-top: -3rem;
 }
 #hostel-section a:nth-child(2) div
 {
-
-    background-image: url(img/ezstays.jpeg)  ;
-    background-repeat: no-repeat;
+    margin-top: -3rem;
+    background: url(img/ezstays.jpeg) no-repeat center center/cover  ;
     
 }
 #hostel-section a:nth-child(3) div
 {
+    margin-top: -3rem;
+    background: url(img/magadhinn.png) no-repeat center center/cover  ;
+}
+#hostel-section div:nth-child(2) a:nth-child(1)  div
+{
+    margin-top:5rem;
+    margin-bottom:3rem;
+    background: url(img/stanza.jpg) no-repeat center center/cover  
+}
+#hostel-section div:nth-child(2) a:nth-child(2)  div
+{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    background: url(img/NALANDA.png) no-repeat center center/cover  ;
+}
+#hostel-section div:nth-child(2) a:nth-child(3) div
+{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
 
-    background-image: url(img/magadhinn.png)  ;
-    background-repeat: no-repeat;
-}
-#hostel-section a:nth-child(4) div
-{
-    margin-left:24rem;
-    background-image: url(img/stanza.jpg)  
-}
-#hostel-section a:nth-child(5) div
-{
-
-    background-image: url(img/NALANDA.png)  ;
-    background-repeat: no-repeat;
-}
-#hostel-section a:nth-child(6) div
-{
-    margin-top:7rem;
-    background-image: url(img/clanbridge.png)  ;
-    background-repeat: no-repeat;
+    background: url(img/clanbridge.png) no-repeat center center/cover  ;
 }
 
 #hostel-section a div
@@ -260,26 +263,36 @@
     text-decoration-thickness: 0.3em;
     
 }
+
+#hostel-section .container
+{
+    display:flex;
+    align-items: flex-start;
+    justify-content:center;
+    width:100%;
+    flex-wrap: wrap;
+
+    height:40%;
+    box-sizing: border-box;
+}
+
 #hostel-section .box  
 {
-
-    position: relative;
     top:-3rem;
-    display: inline-block;
-    width:24rem;
-    margin-top:-5rem;
-    height: 28rem;
-    margin-left:2.5rem;
-    padding:0rem;
-    border-bottom:  4.5rem solid rgba(40, 40, 40, 0.6);
+    width:20rem;
+
+    margin-left: 1.5rem;
+    margin-right:1.5rem;
+    height: 20rem;
+    border-bottom:  3rem solid rgba(40, 40, 40, 0.6);
 }
 
 #hostel-section a div h1
 {
     position:relative;
-    top: 29rem;
+    top: 20.5rem;
     justify-content: center;
-    justify-items: last baseline;
+
     text-align:center;
     color:white;    
     font-size:1.5rem;
@@ -295,12 +308,12 @@
 
 #client-section
 {
-    height:27rem;
+    height:100%;
 }
 .client-h
 {
     font-size: 3rem;
-    padding-top: 10rem; 
+    padding-top:3rem; 
     text-decoration: underline;
     text-underline-offset: 0.4em; 
     font-family: Montserrat;
@@ -309,26 +322,27 @@
 {
     content: "";
     position: absolute;
-    background: url(img/raj.jpg) no-repeat center center/cover  ;
+    background: url(img/raj.jpg) no-repeat center center/cover ;
     width: 100%;
-    height: 37rem;
+    height: 40rem;
     z-index: -1;
     opacity: 0.7;
 }
 #clients
 {
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
-.client-items
-{
-    padding:70px;
-}
+
 #clients img
 {
-   height:12rem;
+    position: relative;
+    top:5rem;
+   height:10rem;
+   margin-bottom:10rem ;
 }
+
 
 
 
@@ -343,9 +357,8 @@
 #contact
 {
     color:white;
-    position:relative;
-    top: 10rem;
-    height: 48rem;
+
+    height:100%;
 }
 #contact >h1
 {
@@ -391,10 +404,13 @@
 
 footer
 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
     background-color: black;
     color:white;
     padding:0.7rem 1.4rem;
-    margin-top: 9rem;
+    margin-top: 5rem;
 }
 /* Utility classes */
 
