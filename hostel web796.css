@@ -1,7 +1,4 @@
-body
-{
-    background: blue;
-}
+
 *
 {
     margin:0;
@@ -48,7 +45,7 @@ body
 #logo img
 {
     margin-left: 1rem;
-    height: 3rem;
+    height: 2.5rem;
     
 }
 
@@ -65,7 +62,7 @@ body
 .greater h1
 {
 
-    font-size:1.2rem;
+    font-size:1rem;
     font-weight: bold;
     font-family: Montserrat;
 }
@@ -102,7 +99,7 @@ body
 .h-primary
 {
     color:white;
-    font-size: 3rem;
+    font-size: 2rem;
     padding:1rem;
     font-weight: bolder;
 }
@@ -120,21 +117,24 @@ body
 .services-container
 {
     margin-top:6rem; 
-    height:32rem;
+    width: 100%;
+    height:100%;
     background-color: #D3D3D3;
-    overflow: auto;
+    overflow-x: auto;
+
 }
 .side
 {
    display: flex;
    flex-wrap: wrap;
+   align-items: flex-start;
    justify-content:center;
 }
 .side h1 
 {
 
     border-bottom:0rem solid black; 
-    font-size:2.5rem;
+    font-size:2rem;
     top:0rem;
     font-weight: 1000;
     font-family: Montserrat;
@@ -149,6 +149,7 @@ body
     margin-top:0rem;
     margin-left: 0rem;
     padding-top:0.5rem; 
+
     top:0rem;
     width:70%;  
 
@@ -191,59 +192,44 @@ body
 
 
 
-#hostel-section
-{
-    display:block;
-    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(243, 243, 237));
-    width: 100%;
-    height:100%;
-    /* text-shadow: -1.7px -1.7px 1.7px rgb(241, 8, 183); */
-}
-
 #hostel-section a:nth-child(1) div
 { 
-    margin-left:4rem;
-    margin-bottom: 7rem;
-    background: url(img/abhostelmin.jpeg) no-repeat top center/cover;
-    
-    background-repeat: no-repeat;
+
+    margin-bottom:1rem;
+    background: url(img/abhostel.png) no-repeat center center/cover  ;
+    margin-top: 1.5rem;
 }
 #hostel-section a:nth-child(2) div
 {
-    margin-left:4rem;
-    margin-bottom: 7rem;
-    background: url(img/ezmin.jpeg) no-repeat top center/cover;
-    background-repeat: no-repeat;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    background: url(img/ezstays.jpeg) no-repeat center center/cover  ;
     
 }
 #hostel-section a:nth-child(3) div
 {
-    margin-left:4rem;
-    margin-bottom: 7rem;
-    background: url(img/magmin.jpeg) no-repeat center bottom/cover ;
-    background-repeat: no-repeat;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    background: url(img/magadhinn.png) no-repeat center center/cover  ;
 }
-#hostel-section a:nth-child(4) div
+#hostel-section div:nth-child(2) a:nth-child(1)  div
 {
-    margin-left:4rem;
-    margin-bottom: 7rem;
-    background: url(img/stanza.jpeg) no-repeat top center/cover;
-    background-repeat: no-repeat;
+    margin-top:1rem;
+    margin-bottom:3rem;
+    background: url(img/stanza.jpg) no-repeat center center/cover  
 }
-#hostel-section a:nth-child(5) div
+#hostel-section div:nth-child(2) a:nth-child(2)  div
 {
-    margin-left:4rem;
-    margin-bottom: 7rem;
-    background: url(img/nalmin.png) no-repeat top center/cover;
-    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: url(img/NALANDA.png) no-repeat center center/cover  ;
 }
-#hostel-section a:nth-child(6) div
+#hostel-section div:nth-child(2) a:nth-child(3) div
 {
-    margin-top:0rem;
-    margin-left:4rem;
-    margin-bottom: 0rem;
-    background: url(img/clanbridgemin.png) no-repeat top center/cover;
-    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    background: url(img/clanbridge.png) no-repeat center center/cover  ;
 }
 
 #hostel-section a div
@@ -260,25 +246,35 @@ body
     text-decoration-thickness: 0.3em;
     
 }
+
+#hostel-section .container
+{
+    display:flex;
+    align-items: flex-start;
+    justify-content:center;
+    width:100%;
+    flex-wrap: wrap;
+
+    height:40%;
+    box-sizing: border-box;
+}
+
 #hostel-section .box  
 {
-    
-    position: relative;
-    top:-1rem;
-    width:70%;
-    margin-top:0rem;
-    height: 20rem;
-    margin-left:0rem;
-    padding:0rem;
-    border-bottom:  2.5rem solid rgba(40, 40, 40, 0.6);
+    top:-3rem;
+    width:16.7rem;
+    height: 13rem;
+    margin-left: 0.5rem;
+    margin-right:0.5rem;
+    border-bottom:  2rem solid rgba(40, 40, 40, 0.6);
 }
 
 #hostel-section a div h1
 {
     position:relative;
-    top: 20.5rem;
+    top: 13.5rem;
     justify-content: center;
-    justify-items: last baseline;
+
     text-align:center;
     color:white;    
     font-size:1rem;
@@ -288,64 +284,113 @@ body
 
 
 
-/* Clients section */
-#client-section
-{
-    height:8rem;
+
+#clients img {
+    position: relative;
+    top: 2rem;
+    height: 10rem;
+    margin-bottom: 5rem;
 }
 .client-h
 {
-    font-size:1.5rem;
-    padding-top: 4rem; 
+    font-size: 1rem;
+    padding-top:1rem; 
     text-decoration: underline;
     text-underline-offset: 0.3em; 
     font-family: Montserrat;
 }
-#client-section::before
-{
-    content: "";
-    position: absolute  ;
-    background: url(img/raj.jpg) no-repeat center center/cover;
-    width: 100%;
-    height: 30rem;
-    z-index: -1;
-    opacity: 0.7;
-}
-#clients
-{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    overflow: auto;
-}
-.client-items
-{
-    padding:3rem 0.5rem 1rem 0.5rem;
-}
+
 #clients img
 {
-   height:5rem;
+   height:3rem;
 }
 
 #contact-box form
 {
-    width:50%;
+    width:80%;
 
 }
 
 
+
+
+
+
+footer
+{
+    background-color: black;
+    color:white;
+    padding:0.7rem 1.4rem;
+    margin-top: 5rem;
+}
+/* Utility classes */
+
+
+.center
+{
+    text-align:center;
+    /* margin-top:100rem; */
+}
+.submit 
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top:2rem;
+}
 .submit button
 {
     background-color: maroon;
     color: white;
     padding:0.5rem;
     font-size:1rem;
-    border-radius: 0.7rem;
-    width:5rem;
+    border-radius: 0.5rem;
+    width:5rem
 }
 
 
-#contact >h1 
+#contact
 {
-    font-size:3rem;
+    color:white;
+
+    height:100%;
+}
+#contact >h1
+{
+    padding-top:5rem;
+}
+#contact::before
+{
+    content:"";
+    position:absolute;
+    width:100%;
+    height: 36rem;
+    z-index: -1;
+    background: black;
+
+
+}
+
+#contact-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#contact-box input,
+#contact-box textarea
+{
+    width: 100%;
+    padding:0.3rem;
+    border-radius:0.5rem;
+    font-size:0.7rem;
+}
+
+#contact-box label
+{
+    font-size: 0.7rem;
+    font-family: Montserrat;
+
 }
