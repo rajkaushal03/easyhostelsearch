@@ -76,9 +76,9 @@
 
 #navbar ul
 {
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     display:flex;
-    display: none;
+
 }
 
 #navbar ul li a
@@ -86,7 +86,7 @@
     display: block;
     color:white;
     text-decoration: none;
-    padding-left:1rem;  
+    padding-left:0.7rem;  
 }
 #home 
 {
@@ -99,7 +99,7 @@
 .h-primary
 {
     color:white;
-    font-size: 3rem;
+    font-size: 2rem;
     padding:1rem;
     font-weight: bolder;
 }
