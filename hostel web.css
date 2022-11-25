@@ -160,7 +160,7 @@
 .side p:nth-child(2)
 {
     position: absolute;
-    color:blue;
+
     margin-top:22rem;
     margin-left: 25rem;
     padding:0.5rem; 
@@ -169,7 +169,7 @@
 .side p:nth-child(3)
 {
     position: absolute; 
-    color:cyan;
+;
     margin-top:27rem;
     margin-left: 25rem;
     padding:0.5rem; 
@@ -178,7 +178,6 @@
 .side p:nth-child(4)
 {
     position: absolute;
-    color: green;
     margin-top:31rem;
     margin-left: 25rem;
     padding:0.5rem; 
@@ -194,7 +193,7 @@
     font-size:3.5rem;
     font-family: Montserrat;
     writing-mode: vertical-rl;
-    background: -webkit-linear-gradient(180deg,rgb(84, 13, 238), rgb(6, 6, 6));
+    background: -webkit-linear-gradient(180deg,rgb(140, 139, 143), rgb(6, 6, 6));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -202,7 +201,7 @@
 #hostel-section
 {
 
-    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(55, 6, 160));
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(122, 119, 128));
     width: 100%;
     height:100%;
     align-items: center;
