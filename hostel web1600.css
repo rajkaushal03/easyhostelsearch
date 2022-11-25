@@ -121,7 +121,7 @@
 .side p:nth-child(2)
 {
     position: absolute;
-    color:blue;
+
     margin-top:22rem;
     margin-left: 15rem;
     padding:0.5rem; 
@@ -130,7 +130,7 @@
 .side p:nth-child(3)
 {
     position: absolute;
-    color:cyan;
+
     margin-top:27rem;
     margin-left: 15rem;
     padding:0.5rem; 
@@ -139,7 +139,7 @@
 .side p:nth-child(4)
 {
     position: absolute;
-    color: green;
+
     margin-top:31rem;
     margin-left: 15rem;
     padding:0.5rem; 
