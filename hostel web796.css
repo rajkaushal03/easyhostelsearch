@@ -157,7 +157,6 @@
 .side p:nth-child(2)
 {
     position: relative;
-    color:blue;
     top: 0rem;
     margin-top: 0rem;
     margin-left: 0rem;
@@ -167,7 +166,6 @@
 .side p:nth-child(3)
 {
     position: relative;
-    color:cyan;
     margin-top: 0rem;
     top:0rem;
     margin-left: 0rem;
@@ -177,7 +175,6 @@
 .side p:nth-child(4)
 {
     position: relative;
-    color: green;
     top:0rem;
     margin-top:0rem;
     margin-left: 0rem;
